@@ -1,0 +1,730 @@
+﻿<CT_SearchResult xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <jobdetails xmlns="urn:callcredit.co.uk/soap:bsbandcreditreport7">
+    <searchid>{CBD467AA-0A62-4899-B7E2-47DAFFB9CE72}</searchid>
+    <cast>02.04.7.1.4.2.0.16395905.0</cast>
+    <pstv>16395905</pstv>
+    <ls>0</ls>
+    <searchdate>2014-02-06T22:23:49</searchdate>
+  </jobdetails>
+  <creditrequest xmlns="urn:callcredit.co.uk/soap:bsbandcreditreport7" datasets="255" schemaversion="7.1">
+    <applicant>
+      <address>
+        <buildingno>6</buildingno>
+        <posttown>Northampton</posttown>
+        <postcode>NN5 6JW</postcode>
+        <startdate>2008-11-21</startdate>
+      </address>
+      <name>
+        <title>Mr</title>
+        <forename>tom</forename>
+        <othernames>george</othernames>
+        <surname>arnold</surname>
+      </name>
+      <dob>1995-02-07</dob>
+      <hho>0</hho>
+      <tpoptout>1</tpoptout>
+    </applicant>
+    <score>1</score>
+    <purpose>CA</purpose>
+    <credittype>PU</credittype>
+  </creditrequest>
+  <picklist xmlns="urn:callcredit.co.uk/soap:bsbandcreditreport7" picklist="1" regenerated="0" maxaddressitems="20" maxnameitems="9">
+    <applicant reporttype="3" id="1">
+      <address addressid="1">
+        <addressinput>
+          <abodeno />
+          <buildingno>6</buildingno>
+          <buildingname />
+          <street1 />
+          <street2 />
+          <sublocality />
+          <locality />
+          <posttown>Northampton</posttown>
+          <postcode>NN5 6JW</postcode>
+        </addressinput>
+        <fullmatches matchstatus="2" reporttype="3">
+          <fullmatch selected="1">
+            <addressmatch>
+              <buildingno>6</buildingno>
+              <street1>PEVERIL ROAD</street1>
+              <posttown>NORTHAMPTON</posttown>
+              <postcode>NN5 6JW</postcode>
+              <domicileid>12893537</domicileid>
+            </addressmatch>
+            <name nameid="1">
+              <nameinput>
+                <title>Mr</title>
+                <forename>tom</forename>
+                <othernames>george</othernames>
+                <surname>arnold</surname>
+              </nameinput>
+              <namematches matchstatus="2" reporttype="3">
+                <namematch selected="1">
+                  <title>MR</title>
+                  <forename>TOM</forename>
+                  <othernames>GEORGE</othernames>
+                  <surname>ARNOLD</surname>
+                  <residenceid>241628530</residenceid>
+                  <dob>1995-02-07</dob>
+                </namematch>
+              </namematches>
+            </name>
+          </fullmatch>
+        </fullmatches>
+      </address>
+    </applicant>
+  </picklist>
+  <creditreport xmlns="urn:callcredit.co.uk/soap:bsbandcreditreport7" linktype="0" searchid="{CBD467AA-0A62-4899-B7E2-47DAFFB9CE72}">
+    <applicant ageflag="0" reporttitle="TOM GEORGE ARNOLD " reporttype="3" tpoptout="1">
+      <summary>
+        <searches>
+          <totalsearches3months>3</totalsearches3months>
+          <totalsearches12months>3</totalsearches12months>
+          <totalhomecreditsearches3months>0</totalhomecreditsearches3months>
+        </searches>
+        <judgments>
+          <totalactive>0</totalactive>
+          <totalsatisfied>0</totalsatisfied>
+        </judgments>
+        <bais>
+          <totaldischarged>0</totaldischarged>
+          <currentlyinsolvent>0</currentlyinsolvent>
+          <restricted>0</restricted>
+        </bais>
+        <notices>
+          <nocflag>0</nocflag>
+          <totaldisputes>0</totaldisputes>
+        </notices>
+        <links>
+          <totalundecaddresses>0</totalundecaddresses>
+          <totalundecaliases>0</totalundecaliases>
+        </links>
+        <cifas>
+          <totalcifas>0</totalcifas>
+        </cifas>
+        <share>
+          <totalaccounts>3</totalaccounts>
+          <totalactiveaccs>2</totalactiveaccs>
+          <totalsettledaccs>1</totalsettledaccs>
+          <totalopened6months>2</totalopened6months>
+          <worsepaystatus12months>1</worsepaystatus12months>
+          <worsepaystatus36months>1</worsepaystatus36months>
+          <totaldelinqs12months>0</totaldelinqs12months>
+          <totaldefaults12months>0</totaldefaults12months>
+          <totaldefaults36months>0</totaldefaults36months>
+        </share>
+        <bds>
+          <totalvaluecashadvances12months>0</totalvaluecashadvances12months>
+          <totalvaluecashadvances36months>0</totalvaluecashadvances36months>
+        </bds>
+        <indebt>
+          <totalbalancesactive>247</totalbalancesactive>
+          <totalbalancesrevolve>247</totalbalancesrevolve>
+          <balancelimitratiorevolve>98</balancelimitratiorevolve>
+          <totallimitsrevolve>250</totallimitsrevolve>
+          <totalbalancesloans>0</totalbalancesloans>
+        </indebt>
+        <tpd>
+          <alertdecision>1</alertdecision>
+          <alertreview>1</alertreview>
+          <hho>1</hho>
+        </tpd>
+        <summaryaddress>
+          <pafvalid>1</pafvalid>
+          <rollingroll>0</rollingroll>
+          <messagecode>1</messagecode>
+        </summaryaddress>
+        <address current="1" messagecode="1" id="1">6 PEVERIL ROAD, NORTHAMPTON NN5 6JW</address>
+      </summary>
+      <creditscore>
+        <score class="2">525</score>
+        <reasons>
+          <code>105</code>
+          <code>302</code>
+          <code>112</code>
+          <code>108</code>
+        </reasons>
+      </creditscore>
+      <addressconfs>
+        <addressconf pafvalid="1">
+          <address current="1">6 PEVERIL ROAD, NORTHAMPTON NN5 6JW</address>
+          <resident declaredalias="0" currentname="1" matchtype="IM">
+            <name>TOM GEORGE ARNOLD</name>
+            <duration>P16M</duration>
+            <startdate>2012-10-28</startdate>
+            <ervalid>1</ervalid>
+            <erhistory>
+              <startdate>2012-10-28</startdate>
+              <optout>0</optout>
+              <rollingroll>0</rollingroll>
+            </erhistory>
+          </resident>
+          <resident declaredalias="0" currentname="0" matchtype="SM">
+            <name>SAUL P ARNOLD</name>
+            <duration>P40M</duration>
+            <startdate>2010-10-28</startdate>
+            <ervalid>1</ervalid>
+            <erhistory>
+              <startdate>2010-10-28</startdate>
+              <optout>0</optout>
+              <rollingroll>0</rollingroll>
+            </erhistory>
+            <erhistory>
+              <startdate>2006-10-28</startdate>
+              <enddate>2009-10-28</enddate>
+              <optout>0</optout>
+              <rollingroll>0</rollingroll>
+            </erhistory>
+          </resident>
+          <resident declaredalias="0" currentname="0" matchtype="SM">
+            <name>JAYNE MARGARET ARNOLD</name>
+            <duration>P244M</duration>
+            <startdate>1993-10-28</startdate>
+            <ervalid>1</ervalid>
+            <erhistory>
+              <startdate>1993-10-28</startdate>
+              <optout>0</optout>
+              <rollingroll>0</rollingroll>
+            </erhistory>
+          </resident>
+          <resident declaredalias="0" currentname="0" matchtype="SM">
+            <name>NICHOLAS A ARNOLD</name>
+            <duration>P132M</duration>
+            <startdate>1992-10-28</startdate>
+            <enddate>2003-10-28</enddate>
+            <ervalid>3</ervalid>
+            <erhistory>
+              <startdate>1992-10-28</startdate>
+              <enddate>2003-10-28</enddate>
+              <optout>0</optout>
+              <rollingroll>0</rollingroll>
+            </erhistory>
+          </resident>
+        </addressconf>
+      </addressconfs>
+      <judgments />
+      <bais />
+      <searches>
+        <search>
+          <searchref>{2C5F9D20-4396-417C-A03C-E5A64A9AA0E1}</searchref>
+          <searchorgtype>GI</searchorgtype>
+          <ownsearch>0</ownsearch>
+          <subsequentenquiry>0</subsequentenquiry>
+          <searchpurpose>QS</searchpurpose>
+          <term>0</term>
+          <jointapplication>0</jointapplication>
+          <searchdate>2013-12-19T14:45:57</searchdate>
+          <name>Mr tom arnold</name>
+          <dob>1995-02-07</dob>
+          <address current="1">6 Peveril Road, NORTHAMPTON NN5 6JW</address>
+          <tpoptout>1</tpoptout>
+          <transient>0</transient>
+        </search>
+        <search>
+          <searchref>{549125C8-93C2-4AE2-B4CB-48ECE98CBA55}</searchref>
+          <searchorgtype>OF</searchorgtype>
+          <searchorgname>Wonga International S.A (ML, SR, TAC)</searchorgname>
+          <searchunitname>Wonga Little Loans SR API</searchunitname>
+          <ownsearch>1</ownsearch>
+          <subsequentenquiry>0</subsequentenquiry>
+          <username>Wonga Little Loans SR API</username>
+          <searchpurpose>CA</searchpurpose>
+          <credittype>PU</credittype>
+          <term>0</term>
+          <jointapplication>0</jointapplication>
+          <searchdate>2013-12-11T20:33:26</searchdate>
+          <name>Mr tom george arnold</name>
+          <dob>1995-02-07</dob>
+          <address current="1">6, Northampton NN5 6JW</address>
+          <startdate>2008-11-21</startdate>
+          <tpoptout>1</tpoptout>
+          <transient>0</transient>
+        </search>
+        <search>
+          <searchref>{53724E1F-5943-4544-B416-2B9471191417}</searchref>
+          <searchorgtype>OF</searchorgtype>
+          <ownsearch>0</ownsearch>
+          <subsequentenquiry>0</subsequentenquiry>
+          <searchpurpose>CA</searchpurpose>
+          <credittype>AI</credittype>
+          <term>0</term>
+          <jointapplication>0</jointapplication>
+          <searchdate>2013-12-04T10:04:01</searchdate>
+          <name>mr tom arnold</name>
+          <dob>1995-02-07</dob>
+          <address current="1">6 peveril road, northampton NN56JW</address>
+          <tpoptout>0</tpoptout>
+          <transient>0</transient>
+        </search>
+        <search>
+          <searchref>{E13FFE77-DED9-442D-8F52-846FFFBF23F5}</searchref>
+          <searchorgtype>OF</searchorgtype>
+          <ownsearch>0</ownsearch>
+          <subsequentenquiry>0</subsequentenquiry>
+          <searchpurpose>QS</searchpurpose>
+          <term>0</term>
+          <jointapplication>0</jointapplication>
+          <searchdate>2013-12-03T18:34:53</searchdate>
+          <name>mr tom arnold</name>
+          <dob>1995-02-07</dob>
+          <address current="1">6 peveril road, northampton NN56JW</address>
+          <tpoptout>0</tpoptout>
+          <transient>0</transient>
+        </search>
+        <search>
+          <searchref>{3009B3CF-2827-4DB5-BE2A-0FDC17D8C21F}</searchref>
+          <searchorgtype>OF</searchorgtype>
+          <searchorgname>Wonga International S.A (ML, SR, TAC)</searchorgname>
+          <searchunitname>Wonga.com Ltd (SR)</searchunitname>
+          <ownsearch>1</ownsearch>
+          <subsequentenquiry>0</subsequentenquiry>
+          <username>Quickbridge CR API7</username>
+          <searchpurpose>CA</searchpurpose>
+          <credittype>AI</credittype>
+          <term>0</term>
+          <jointapplication>0</jointapplication>
+          <searchdate>2013-11-21T21:01:19</searchdate>
+          <name>Mr tom george arnold</name>
+          <dob>1995-02-07</dob>
+          <address current="1">6, NN5 6JW</address>
+          <tpoptout>1</tpoptout>
+          <transient>0</transient>
+        </search>
+        <search>
+          <searchref>{703FED80-E235-4649-A97A-DC0C3E79E8AD}</searchref>
+          <searchorgtype>GI</searchorgtype>
+          <ownsearch>0</ownsearch>
+          <subsequentenquiry>0</subsequentenquiry>
+          <searchpurpose>QS</searchpurpose>
+          <term>0</term>
+          <jointapplication>0</jointapplication>
+          <searchdate>2013-05-03T08:30:55</searchdate>
+          <name>Mr tom arnold</name>
+          <dob>1995-02-07</dob>
+          <address current="1">6 Peveril Road, NORTHAMPTON NN5 6JW</address>
+          <tpoptout>1</tpoptout>
+          <transient>0</transient>
+        </search>
+      </searches>
+      <addresslinks />
+      <aliaslinks />
+      <cifas />
+      <accs>
+        <acc>
+          <supplierdetails apacs="1">
+            <suppliertypecode>CC</suppliertypecode>
+          </supplierdetails>
+          <accholderdetails>
+            <name>MR TOM G ARNOLD</name>
+            <address current="1">6 PEVERIL ROAD;;;NORTHAMPTON NORTHANTS;;;; NN5 6JW</address>
+            <dob>1995-02-07</dob>
+            <statuscode>N</statuscode>
+            <startdate>2013-10-20</startdate>
+          </accholderdetails>
+          <acchistory>
+            <ah m="2013-12" bal="247" limit="250" acc="AA" pay="1" stmtbal="231" payamt="0" cashadvcount="0" cashadvtotal="0" />
+            <ah m="2013-11" bal="231" limit="250" acc="UC" pay="U" stmtbal="0" payamt="0" cashadvcount="0" cashadvtotal="0" />
+            <ah m="2013-10" bal="229" limit="250" acc="UC" pay="U" stmtbal="0" payamt="0" cashadvcount="0" cashadvtotal="0" />
+          </acchistory>
+          <accdetails>
+            <joint>0</joint>
+            <status>N</status>
+            <dateupdated>2013-12-31</dateupdated>
+            <acctypecode>CC</acctypecode>
+            <accgroupid>3</accgroupid>
+            <currencycode>GBP</currencycode>
+            <balance>247</balance>
+            <limit>250</limit>
+            <openbalance>229</openbalance>
+            <paystartdate>2013-10-20</paystartdate>
+            <accstartdate>2013-10-20</accstartdate>
+            <repayfreqcode>M</repayfreqcode>
+            <lumppayment>0</lumppayment>
+            <promotionalrate>1</promotionalrate>
+            <statementbalance>231</statementbalance>
+          </accdetails>
+        </acc>
+        <acc>
+          <supplierdetails apacs="0">
+            <suppliername>Quickbridge (UK) Ltd</suppliername>
+            <suppliertypecode>FN</suppliertypecode>
+          </supplierdetails>
+          <accholderdetails>
+            <name>MR TOM GEORGE ARNOLD</name>
+            <address current="1">6 PEVERIL ROAD;;NORTHAMPTON; NN56JW</address>
+            <dob>1995-02-07</dob>
+            <statuscode>N</statuscode>
+            <startdate>2013-11-21</startdate>
+            <enddate>2013-12-07</enddate>
+          </accholderdetails>
+          <acchistory>
+            <ah m="2013-12" bal="0" limit="0" acc="ST" pay="U" />
+            <ah m="2013-11" bal="101" acc="UC" pay="U" />
+          </acchistory>
+          <accdetails>
+            <accno>000108123175</accno>
+            <accsuffix>0</accsuffix>
+            <joint>0</joint>
+            <status>S</status>
+            <dateupdated>2013-12-01</dateupdated>
+            <acctypecode>IL</acctypecode>
+            <accgroupid>1</accgroupid>
+            <currencycode>GBP</currencycode>
+            <balance>0</balance>
+            <limit>0</limit>
+            <openbalance>50</openbalance>
+            <paystartdate>2013-11-21</paystartdate>
+            <accstartdate>2013-11-21</accstartdate>
+            <accenddate>2013-12-07</accenddate>
+            <regpayment>101</regpayment>
+            <repayperiod>1</repayperiod>
+            <repayfreqcode>M</repayfreqcode>
+            <lumppayment>0</lumppayment>
+          </accdetails>
+        </acc>
+        <acc>
+          <supplierdetails apacs="0">
+            <suppliertypecode>BK</suppliertypecode>
+          </supplierdetails>
+          <accholderdetails>
+            <name>MR TOM GEORGE ARNOLD</name>
+            <address current="1">6 PEVERIL ROAD;NORTHAMPTON;NORTHAMPTONSHIRE;;;;; NN5 6JW</address>
+            <dob>1995-02-07</dob>
+            <statuscode>N</statuscode>
+            <startdate>2011-08-09</startdate>
+          </accholderdetails>
+          <acchistory>
+            <ah m="2013-12" bal="0" limit="0" acc="OK" pay="0" />
+            <ah m="2013-11" bal="0" limit="0" acc="OK" pay="0" />
+            <ah m="2013-10" bal="0" limit="0" acc="OK" pay="0" />
+            <ah m="2013-09" bal="0" limit="0" acc="OK" pay="0" />
+            <ah m="2013-08" bal="0" limit="0" acc="OK" pay="0" />
+            <ah m="2013-07" bal="0" limit="0" acc="OK" pay="0" />
+          </acchistory>
+          <accdetails>
+            <joint>0</joint>
+            <status>N</status>
+            <dateupdated>2013-12-31</dateupdated>
+            <acctypecode>CA</acctypecode>
+            <accgroupid>7</accgroupid>
+            <currencycode>GBP</currencycode>
+            <balance>0</balance>
+            <limit>0</limit>
+            <openbalance>0</openbalance>
+            <paystartdate>2011-08-09</paystartdate>
+            <accstartdate>2011-08-09</accstartdate>
+            <repayfreqcode>M</repayfreqcode>
+            <lumppayment>0</lumppayment>
+          </accdetails>
+        </acc>
+      </accs>
+      <demographics2006>
+        <cameouk>04E</cameouk>
+        <cameoukg>04</cameoukg>
+        <cameoincome>45</cameoincome>
+        <cameoincg>4</cameoincg>
+        <cameoinvestor>55</cameoinvestor>
+        <cameoinvg>5</cameoinvg>
+        <cameoproperty>08</cameoproperty>
+        <cameofinance>55</cameofinance>
+        <cameofing>5</cameofing>
+        <cameounemploy>03</cameounemploy>
+        <age>
+          <agescore>22.4535999</agescore>
+          <ageband>17</ageband>
+        </age>
+        <tenure>
+          <tenrscore>72.097866</tenrscore>
+          <tenrband>6</tenrband>
+        </tenure>
+        <hhcomp>
+          <compscore>50.0002242</compscore>
+          <compband>11</compband>
+        </hhcomp>
+        <economic>
+          <econscore>63.6259302</econscore>
+          <econband>8</econband>
+        </economic>
+        <lifestage>
+          <lifescore>36.7345109</lifescore>
+          <lifeband>14</lifeband>
+        </lifestage>
+        <social>
+          <millhhld>0</millhhld>
+          <dirhhld>4.1667</dirhhld>
+          <socscore>77.796557</socscore>
+          <socband>5</socband>
+        </social>
+        <occupation>
+          <occscore>67.3096925</occscore>
+          <occband>7</occband>
+        </occupation>
+        <mortgage>
+          <mortscore>67.3574375</mortscore>
+          <mortband>8</mortband>
+        </mortgage>
+        <sharehld>
+          <hhldshare>0.2229</hhldshare>
+          <avnumhold>0.71082</avnumhold>
+          <avnumshares>-0.0084</avnumshares>
+          <avnumcomps>0.51649</avnumcomps>
+          <avvalshares>-0.0081</avvalshares>
+        </sharehld>
+        <unemployment>
+          <unemmalelt>0</unemmalelt>
+          <unem1824>4.73934</unem1824>
+          <unem2539>9.47867</unem2539>
+          <unem40pl>4.73934</unem40pl>
+          <unemscore>38.3654622</unemscore>
+          <unemband>12</unemband>
+        </unemployment>
+        <unemprate>
+          <unemrate>18.95735</unemrate>
+          <unemdiff>-19.70244</unemdiff>
+          <unemind>34</unemind>
+          <unemall>25.59242</unemall>
+          <unemallindex>27</unemallindex>
+        </unemprate>
+        <property>
+          <houseage>6-10</houseage>
+          <hhlddensity>1669.09803</hhlddensity>
+          <ctaxband>C</ctaxband>
+          <locationtype>4</locationtype>
+          <natavghouse>164300</natavghouse>
+          <housescore>38.1475836</housescore>
+          <houseband>14</houseband>
+          <pricediff>-9854</pricediff>
+          <priceindex>71</priceindex>
+          <activity>449</activity>
+          <regionalband>4</regionalband>
+          <avgdetvalue>212215</avgdetvalue>
+          <avgdetindex>63</avgdetindex>
+          <avgsemivalue>156434</avgsemivalue>
+          <avgsemiindex>75</avgsemiindex>
+          <avgterrvalue>135327</avgterrvalue>
+          <avgterrindex>68</avgterrindex>
+          <avgflatvalue>96844</avgflatvalue>
+          <avgflatindex>48</avgflatindex>
+          <regioncode>10</regioncode>
+        </property>
+        <international>
+          <cameointl>23</cameointl>
+        </international>
+      </demographics2006>
+    </applicant>
+  </creditreport>
+  <BSB xmlns="urn:callcredit.co.uk/soap:bsbandcreditreport7" linktype="0" searchid="{CBD467AA-0A62-4899-B7E2-47DAFFB9CE72}">
+    <OVERALL>
+      <MAIN B="0" />
+      <CUGMEMB K="F" L="1" />
+    </OVERALL>
+    <APPLICANT app_no="1">
+      <APPLSUMMARY>
+        <MAIN W="P1" X="16" />
+        <COUNTS Z="0" AB="0" BB="0" CB="0" DB="0" EB="3" FB="2" GB="0" />
+        <SCOTDEBT OQB="{ND}" />
+        <NOTICES HB="0" IB="0" />
+        <SUB_BLOCKS C="1" D="1" E="{ND}" F="0" />
+        <ALIAS_NO UPB="0" VPB="{ND}" WPB="0" />
+        <ASSOC_NO DD="{ND}" ED="{ND}" AC="{ND}" />
+        <ALERTSUMM PB="{ND}" QB="{ND}" RB="{ND}" SB="{ND}" TB="{ND}" UB="{ND}" />
+        <HHOSUMM BC="{ND}" RGB="{ND}" />
+        <TPD INB="{ND}" JNB="{ND}" KNB="{ND}" LNB="{ND}" />
+        <OCCUPANCY AD="1" />
+        <DECEASED LQB="0" FCC="{ND}" GCC="{ND}" HCC="{ND}" ICC="{ND}" />
+        <IMPAIRED MQB="{ND}" LJC="0" />
+        <ACTIVITY JCC="{ND}" KCC="{ND}" LCC="{ND}" />
+        <ADVERSE MCC="{ND}" HHC="{ND}" />
+      </APPLSUMMARY>
+      <ID>
+        <APPL DC="{ND}" EC="{ND}" FC="{ND}" GC="I1" HC="IM" IC="{ND}" />
+      </ID>
+      <PUBLIC>
+        <BOTH FD="0" GD="0" HD="{ND}" ID="0" JD="{ND}" QDB="{ND}" TQB="{ND}" KD="0" CQB="{ND}" LD="0" DQB="{ND}" MD="{ND}" ND="{ND}" OD="{ND}" PD="0" QD="0" RD="{ND}" SD="0" />
+        <AMOUNT TD="0" VD="0" />
+        <TIME WD="{ND}" XD="{ND}" YD="{ND}" ZD="{ND}" AE="{ND}" BE="{ND}" CE="{ND}" />
+        <NUMRECENCY IE="0" JE="0" KE="0" LE="0" ME="0" />
+        <OTHER NE="{ND}" OE="0" PE="0" QE="0" RE="{ND}" />
+      </PUBLIC>
+      <ER>
+        <ADDRESS WE="{ND}" XE="16" YE="244" ZE="{ND}" AF="{ND}" BF="B" CF="{ND}" DF="{ND}" KQB="{ND}" WQB="1" />
+        <OCCUPANCY EF="3" GF="0" />
+        <NOTICES HF="0" IF="0" />
+        <TURNOVER NCC="{ND}" />
+      </ER>
+      <SCORE>
+        <MAIN JF="525" KF="105,302,112,108" MF="105" NF="302" OF="112" PF="108" QF="{ND}" SF="{ND}" TF="{ND}" UF="{ND}" VF="{ND}" WF="{ND}" YF="{ND}" ZF="{ND}" AG="{ND}" CG="{ND}" />
+      </SCORE>
+      <FULL>
+        <HHO FG="3" GG="30" HG="2" IG="1" JG="247" KG="0" />
+        <BOTH LG="1" MG="1" NG="1" OG="1" SPB="1" RDB="1" HDC="{ND}" IDC="{ND}" />
+        <ALERT PG="{ND}" />
+        <EVENT RG="0" TG="0" OGC="{ND}" PGC="{ND}" QGC="{ND}" />
+        <TIME UG="1" VG="2" WG="2" XG="2" ZG="1" AH="1" BH="1" CH="1" JDC="{ND}" KDC="{ND}" GH="3" HH="{ND}" IH="{ND}" JH="U" SDB="U" />
+        <OPENVAL KH="0" LH="247" MH="247" NH="{ND}" OH="{ND}" NDC="{ND}" ARB="0" CRB="247" DRB="0" TDB="{ND}" RRB="247" />
+        <WORSTLESS2 PH="2" QH="2" RH="2" SH="{ND}" />
+        <WORSTLESS1 UH="1" VH="1" WH="1" XH="{ND}" />
+        <WORSTUNCLASS ZH="0" AI="0" BI="0" CI="{ND}" />
+        <WORST0 EI="1" FI="1" GI="1" HI="{ND}" />
+        <WORST3PLUS EJ="0" FJ="0" />
+        <CODE1 HJ="{ND}" TJ="{ND}" />
+        <CODE2 ZJ="{ND}" FK="{ND}" RGC="{ND}" />
+        <CODEDM LJ="{ND}" MJ="{ND}" NJ="{ND}" OJ="{ND}" />
+        <TOTAL1 LK="{ND}" WK="{ND}" />
+        <TOTAL2 CL="{ND}" IL="{ND}" SGC="{ND}" />
+        <TOTALDM PK="{ND}" JCH="{ND}" QK="{ND}" RK="{ND}" />
+        <ACCOUNT OL="1" PL="0" QL="1" RL="{ND}" SL="{ND}" TL="{ND}" UL="1" VL="{ND}" WL="{ND}" XL="0" />
+        <VALUE DM="0" EM="{ND}" FM="247" GM="{ND}" HM="{ND}" IM="{ND}" JM="{ND}" KM="{ND}" LM="{ND}" MM="{ND}" />
+        <ACCOUNTACT KHC="{ND}" LHC="{ND}" MHC="1" NHC="{ND}" OHC="{ND}" />
+        <PERCUNSEC WZB="0" XZB="100" YZB="0" ZZB="0" MBC="0" />
+        <DEBT SM="247" TM="247" UM="247" VM="106" WM="{ND}" XM="{ND}" MRB="{ND}" POB="{ND}" />
+        <DEBTLIMIT ZM="100" AN="{ND}" BN="{ND}" ODC="{ND}" PDC="{ND}" QDC="{ND}" />
+        <DEBTXMTGREPAY HN="98" IN="92" JN="{ND}" KN="{ND}" LN="{ND}" SDC="{ND}" TDC="{ND}" />
+        <DEBTMISC MN="{ND}" NN="250" ON="{ND}" PN="101" QN="{ND}" SJC="{ND}" />
+        <PAYMENTS RN="0" SN="101" TN="0" UN="{ND}" />
+        <DUE WN="2" XN="{ND}" YN="{ND}" />
+        <PAYSTAT3PLUS PO="{ND}" QO="0" RO="{ND}" SO="0" />
+        <WORSTPAY FRB="1" BQ="1" CQ="1" DQ="1" EQ="1" FQ="{ND}" />
+        <WORSTXHOME GRB="1" IRB="1" />
+        <WORSTXUTIL NJC="1" OJC="1" />
+        <COMPANIES HQ="3" IQ="3" />
+        <OPENED412MNTH BRB="1" />
+        <OPENED12MNTH JQ="{ND}" KQ="1" LQ="{ND}" MQ="{ND}" />
+        <OPENED12PLUSMNTH ERB="{ND}" />
+        <OPENED24MNTH NQ="{ND}" OQ="1" PQ="1" QQ="{ND}" RQ="{ND}" />
+        <OPENEDSETTLD ZQ="{ND}" AR="{ND}" BR="{ND}" />
+        <INDEBT NMB="0" OMB="0" RMB="0" SMB="0" TMB="0" WMB="0" RUB="2" XMB="2" />
+        <NOTICES DG="0" EG="0" />
+        <CURRENT JRB="1" KRB="1" HRB="1" />
+        <SETTLED0 LRB="0" YQB="0" ZQB="0" />
+        <RUNAWAYS FYB="0" GYB="0" />
+        <ALLHCSTATUS HYB="{ND}" MYB="{ND}" NYB="{ND}" OYB="{ND}" />
+        <ACTHCSTATUS RYB="{ND}" />
+        <XHOMECREDIT SYB="1" />
+        <HCBALANCES TYB="{ND}" WYB="{ND}" XYB="{ND}" YYB="{ND}" />
+        <LNOPENED UDC="{ND}" VDC="{ND}" WDC="{ND}" XDC="{ND}" />
+        <MTGOPENED YDC="{ND}" ZDC="{ND}" AEC="{ND}" BEC="{ND}" />
+        <CCOPENED CEC="{ND}" DEC="{ND}" EEC="{ND}" FEC="{ND}" />
+        <TELCOOPENED GEC="{ND}" HEC="{ND}" IEC="{ND}" JEC="{ND}" />
+        <UTILOPENED KEC="{ND}" LEC="{ND}" MEC="{ND}" NEC="{ND}" />
+        <HOMESHOPOPENED OEC="{ND}" PEC="{ND}" QEC="{ND}" REC="{ND}" />
+        <BKOPENED SEC="{ND}" TEC="{ND}" UEC="{ND}" VEC="{ND}" />
+        <MISCOPENED WEC="{ND}" XEC="{ND}" YEC="{ND}" ZEC="{ND}" />
+        <INSOPENED AFC="{ND}" BFC="{ND}" CFC="{ND}" DFC="{ND}" />
+        <HCNEWACCS WWB="0" XWB="0" YWB="0" ZWB="0" />
+        <LNSETTLED EFC="{ND}" FFC="{ND}" GFC="{ND}" HFC="{ND}" />
+        <MTGSETTLED IFC="{ND}" JFC="{ND}" KFC="{ND}" LFC="{ND}" />
+        <CCSETTLED MFC="{ND}" NFC="{ND}" OFC="{ND}" PFC="{ND}" />
+        <TELCOSETTLED QFC="{ND}" RFC="{ND}" SFC="{ND}" TFC="{ND}" />
+        <UTILSETTLED UFC="{ND}" VFC="{ND}" WFC="{ND}" XFC="{ND}" />
+        <HOMESHOPSETTLED YFC="{ND}" ZFC="{ND}" AGC="{ND}" BGC="{ND}" />
+        <BKSETTLED CGC="{ND}" DGC="{ND}" EGC="{ND}" FGC="{ND}" />
+        <MISCSETTLED GGC="{ND}" HGC="{ND}" IGC="{ND}" JGC="{ND}" />
+        <INSSETTLED KGC="{ND}" LGC="{ND}" MGC="{ND}" NGC="{ND}" />
+        <HCSETTLED BZB="0" CZB="0" DZB="0" FZB="0" NAC="{ND}" OAC="0" />
+        <REVOLVECRED MZB="98" RIC="92" SIC="{ND}" TIC="{ND}" />
+        <HCWRSTSETT PAC="{ND}" QAC="{ND}" />
+        <HCWRSTACT WAC="{ND}" />
+        <HCPAY RAC="{ND}" />
+        <HCAGE SAC="{ND}" TAC="{ND}" />
+        <HCBALCHG UAC="{ND}" VAC="{ND}" XAC="{ND}" YAC="{ND}" />
+        <WORSTPAYLOAN ABC="{ND}" BBC="{ND}" CBC="{ND}" />
+        <WORSTPAYCC DBC="1" EBC="1" FBC="1" />
+        <WORSTPAYMTG GBC="{ND}" HBC="{ND}" IBC="{ND}" />
+        <WORSTPAYTELECO PCC="{ND}" QCC="{ND}" RCC="{ND}" />
+        <WORSTPAYUTIL SCC="{ND}" TCC="{ND}" UCC="{ND}" />
+        <WORSTPAYHOMESHOP VCC="{ND}" WCC="{ND}" XCC="{ND}" />
+        <WORSTPAYBNK JBC="0" KBC="0" LBC="0" />
+        <WORSTPAYMISC YCC="{ND}" ZCC="{ND}" ADC="{ND}" />
+        <WORSTPAYINS BDC="{ND}" CDC="{ND}" DDC="{ND}" />
+        <WORSTPAYHOMECR EDC="{ND}" FDC="{ND}" GDC="{ND}" />
+        <OPENED12MTHXHISTORIC ZBC="{ND}" />
+        <OPENED24MTHXHISTORIC ACC="1" />
+        <DUEXHISTORIC BCC="2" CCC="{ND}" DCC="{ND}" />
+        <BOTHXHISTORIC UBC="1" VBC="1" />
+        <WORSTPAYXHISTORIC WBC="1" XBC="1" YBC="1" />
+        <UTILISATION OCC="{ND}" PHC="{ND}" QHC="{ND}" RHC="{ND}" SHC="1" THC="0" />
+        <HIGHEST UHC="{ND}" VHC="{ND}" />
+        <PAYDAY XHC="1" ZHC="0" LIC="1" />
+        <PAYDAYOPENED BIC="0" CIC="1" DIC="1" MIC="3" EJC="3" />
+        <PAYDAYWORST IIC="U" JIC="U" KIC="U" />
+        <PAYDAYVALUE YHC="50" AIC="{ND}" EIC="{ND}" FIC="50" GIC="50" FJC="{ND}" GJC="50" HJC="50" PJC="0" />
+        <PAYDAYSETTLED HIC="1" JJC="0" KJC="{ND}" IJC="2" />
+      </FULL>
+      <PARTIAL>
+        <BOTH MR="0" NR="0" OR="0" PR="0" QR="{ND}" RR="{ND}" SR="{ND}" TR="{ND}" UT="{ND}" UR="0" VR="0" TPB="0" TGC="{ND}" UGC="{ND}" />
+        <ALERT WR="0" />
+        <ALL XR="N" YR="0" ZR="0" ZS="0" AT="0" BT="0" CT="0" DT="0" ET="0" FT="0" GT="0" IT="0" />
+        <VALDEFAULT AS="{ND}" BS="{ND}" CS="{ND}" DS="{ND}" ES="{ND}" FS="{ND}" GS="{ND}" HS="{ND}" JS="{ND}" />
+        <DOB PS="1995-02-07" />
+        <NOTICES WS="0" />
+        <MISC XS="{ND}" HZB="{ND}" MJC="{OB}" />
+        <NUMDEFBAL PT="0" QT="0" RT="0" ST="0" TT="0" />
+        <ENTERDEF PP="0" QP="0" RP="0" SP="0" TP="0" />
+        <SETTLED UP="0" GAC="{ND}" HAC="{ND}" IAC="{ND}" JAC="{ND}" VP="0" />
+        <RECOVERED GZB="{ND}" NZB="{ND}" ZP="{ND}" UZB="{ND}" VZB="{ND}" AQ="{ND}" />
+        <HCDELQ AAC="0" BAC="{ND}" CAC="{ND}" />
+        <HCVALDEF KAC="{ND}" LAC="{ND}" MAC="{ND}" />
+      </PARTIAL>
+      <OWN>
+        <TYPE AU="1" BU="0" CU="1" DU="0" EU="0" FU="0" GU="0" HU="{ND}" KZB="{ND}" IU="0" JU="{ND}" KU="{ND}" LU="{ND}" />
+        <TIME MU="3" NU="{ND}" PU="{ND}" QU="{ND}" QZB="{ND}" />
+        <OPENED WW="0" XW="0" YW="0" ZW="{ND}" AX="{ND}" WGC="{ND}" />
+        <TOTDF MX="{ND}" />
+        <NUMDF BY="0" />
+        <TOTNONDF QY="{ND}" />
+        <NUMNONDF FZ="0" />
+        <VALSECTOR LZ="{ND}" MZ="{ND}" NZ="{ND}" />
+        <DEBT UZ="{ND}" VZ="{ND}" />
+        <INDEBT YMB="0" ZMB="0" CNB="0" DNB="0" ENB="{ND}" FNB="{ND}" GNB="1" EQB="{ND}" />
+        <NOTICES TGB="0" UGB="0" />
+        <WORST JQB="{ND}" TZB="{ND}" />
+        <HCDELQ DAC="0" EAC="{ND}" FAC="{ND}" />
+      </OWN>
+      <CIFAS>
+        <MAIN CAB="0" DAB="0" EAB="{ND}" FAB="{ND}" GAB="{ND}" HAB="{ND}" IAB="{ND}" JAB="{ND}" KAB="{ND}" LAB="{ND}" MAB="{ND}" NAB="{ND}" OAB="{ND}" />
+        <NOTICES KBB="0" />
+      </CIFAS>
+      <CAMEO2006>
+        <MAIN GCB="U" HCB="04E" TRB="04" ICB="{ND}" FWB="{ND}" KCB="45" URB="4" MOB="55" VRB="5" NOB="08" OOB="55" WRB="5" CSB="03" />
+        <AGE DSB="22.4535999" ESB="17" />
+        <TENURE FSB="72.097866" GSB="6" />
+        <HHCOMP HSB="50.0002242" LCB="11" />
+        <ECONOMIC MCB="63.6259302" NCB="8" />
+        <LIFESTAGE OCB="36.7345109" PCB="14" />
+        <SOCIAL DDB="0" EDB="4.1667" FDB="77.796557" GDB="5" />
+        <OCCUPATION QCB="67.3096925" RCB="7" />
+        <MORTGAGE XCB="67.3574375" YCB="8" />
+        <SHAREHLD SCB="0.2229" TCB="0.71082" UCB="-0.0084" VCB="0.51649" WCB="-0.0081" />
+        <UNEMPLOY ZCB="0" ADB="4.73934" BDB="9.47867" CDB="4.73934" HDB="38.3654622" IDB="12" />
+        <UNEMPRATE HWB="18.96" IWB="-19.7" JWB="34" KWB="25.59" LWB="27" />
+        <PROPERTY JDB="6-10" KDB="1669.09803" LDB="C" MDB="4" NDB="38.1475836" ODB="14" ISB="164300" GWB="-9854" JSB="71" KSB="449" LSB="4" MSB="212215" NSB="63" OSB="156434" PSB="75" QSB="135327" RSB="68" SSB="96844" TSB="48" USB="10" />
+        <INTERNATIONAL PDB="23" />
+      </CAMEO2006>
+      <SEARCH>
+        <MAIN UDB="1" />
+        <DEBTCOLL KEB="0" LEB="0" MEB="0" NEB="0" />
+        <ALLCA YGC="0" QEB="3" REB="3" SEB="3" TEB="3" UEB="3" />
+        <OWNCA VEB="2" WEB="2" XEB="2" YEB="2" ZEB="2" />
+        <HOMECREDIT MFB="0" NFB="0" OFB="0" PFB="0" QFB="0" RFB="0" />
+        <TELECOM XGC="{ND}" />
+        <PAYDAY DJC="0" NIC="0" OIC="2" PIC="2" QIC="2" />
+      </SEARCH>
+      <ADDRLINK>
+        <ADDMAIN VGB="0" WGB="0" ZAC="{ND}" NBC="{ND}" />
+        <ADDRAW XGB="{ND}" YGB="{ND}" QOB="{ND}" ZGB="{ND}" AHB="{ND}" ROB="{ND}" BHB="{ND}" CHB="{ND}" SOB="{ND}" DHB="{ND}" EHB="{ND}" TOB="{ND}" FHB="{ND}" GHB="{ND}" JBB="{ND}" />
+        <ADDTIME HHB="{ND}" IHB="{ND}" JHB="{ND}" KHB="{ND}" LHB="{ND}" />
+        <NOTICES XPB="0" YPB="0" />
+      </ADDRLINK>
+      <ACD>
+        <BALANCE AYB="0" />
+        <PAYMENTS BYB="0" CYB="{ND}" DYB="{ND}" EYB="0" FHC="{ND}" GHC="{ND}" IYB="{ND}" JYB="{ND}" KYB="{ND}" LYB="{ND}" WHC="0" />
+        <CASH_ADV_NUM PYB="0" QYB="0" ZGC="{ND}" AHC="{ND}" />
+        <CASH_ADV_VAL UYB="{ND}" VYB="{ND}" BHC="{ND}" CHC="{ND}" />
+        <CASH_ADV_BAL ZYB="{ND}" AZB="0" DHC="{ND}" EHC="{ND}" />
+        <CASH_ADV_BALTIME EZB="{ND}" />
+        <CASH_ADV_PAY IZB="{ND}" />
+      </ACD>
+    </APPLICANT>
+  </BSB>
+</CT_SearchResult>
